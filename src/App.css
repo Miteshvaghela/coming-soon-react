@@ -3,8 +3,9 @@
   height: 80%;
   margin: auto;
   min-height: 512px;
-  box-shadow: 0px 35px 70px 0px rgba(255, 163, 125, 0.65), 0px 30px 40px -10px rgba(255, 100, 124, 0.55);
-  background: linear-gradient(180deg, rgba(255, 163, 125, 1) 0%, rgba(255, 99, 124, 1) 100%);
+  box-shadow: 0px 35px 70px 0px rgb(135 125 255 / 65%), 0px 30px 40px -20px rgb(152 100 255 / 55%);
+  /* background: linear-gradient(180deg, rgb(60 57 237) 0%, rgb(195 201 227) 100%); */
+  background: linear-gradient(180deg, rgb(195 201 227) 0%, rgb(60 57 237) 100%);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -29,6 +30,7 @@
 
 .logo {
   font-weight: bold;
+  width:200px;
   font-size: 1.5em;
   transition: opacity 0.05s ease;
 }
